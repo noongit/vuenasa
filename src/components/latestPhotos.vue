@@ -224,7 +224,7 @@ strong {
 }
 
 .cameraType {
-    min-width: 305px;
+    min-width: 100px;
     border-top: 1px solid #444;
     display: flex;
     font-size: 3em;
@@ -235,8 +235,9 @@ strong {
 
 .cameraType p {
     margin: 12px 0 0 5px;
-    font-size: 23px;
+    font-size: 1.5vw;
     cursor: pointer;
+    width:
 }
 
 .cameraType p:hover {
@@ -298,5 +299,7 @@ strong {
     transform: rotate(360deg);
   }
 }
-
+.fas .fa-camera {
+    min-width: 10px;
+}
 </style>

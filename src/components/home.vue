@@ -54,6 +54,7 @@ p {
     min-width: 400px;
     max-width: 1000px;
     line-height: 1.6;
+    padding: 0px 20px 0 20px;
 }
 
 
