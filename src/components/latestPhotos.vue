@@ -212,6 +212,7 @@ strong {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px 5px
 }
+
 .imageBoxes {
     display: flex;
     flex-direction: column;
@@ -243,7 +244,14 @@ strong {
 .cameraType p:hover {
     text-decoration: underline;
 }
-
+@media screen and (max-width: 980px)  {
+    .mainContent {
+        grid-template-columns: 1fr;
+    }
+    .cameraType p {
+        font-size: 30px;
+        }
+}
 .showMore {
     display: flex;
     align-items: center;

@@ -56,6 +56,8 @@ p {
     line-height: 1.6;
     padding: 0px 20px 0 20px;
 }
-
+.mainWrap h2 {
+    min-width: 170px;
+}
 
 </style>
